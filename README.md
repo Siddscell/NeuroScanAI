@@ -1,75 +1,71 @@
+🧠 *NeuroScanAI*: Alzheimer's Detection from MRI Images
 
+🚀 Overview:
+NeuroScanAI is a *deep learning-powered project designed to detect **Alzheimer's disease* from *MRI* brain scans. By leveraging convolutional neural networks *(CNNs)*, this tool helps provide early detection assistance to researchers and medical practitioners.
 
-````markdown
-🧠 NeuroScanAI – Alzheimer's Disease Detection using Deep Learning
+🌐 Live Demo:
+Try the project directly here:  
+👉 *[NeuroScanAI on Vercel](http://neuroscanai-theta.vercel.app)*
 
-NeuroScanAI is a deep learning-based application for detecting Alzheimer’s Disease from brain MRI scans. It uses a trained CNN model to classify input images and displays predictions in a user-friendly interface.
+💡 Features:
 
----
+- 🏥 Analyze brain MRI scans for Alzheimer's disease indicators
+- ⚡ Fast and intuitive web interface
+- 📊 Visualization of predictions
+- 🧬 Modular design (frontend & backend separated)
+- 💻 Deployed and accessible online
 
-🚀 Features
+🛠 Tech Stack:
 
-- Upload MRI images for prediction
-- Displays classification results clearly
-- Uses Git LFS to manage large `.h5` model files
-- Clean Tkinter-based GUI
-- GitHub integrated deployment
+- *Python* (TensorFlow, Keras, NumPy etc.)
+- *Flask* (Backend server)
+- *React.js* (Frontend)
+- *HTML/CSS/JavaScript*
+- *Git & GitHub*
+- *Vercel* (Deployment)
 
----
+⚙ Setup and Installation:
 
-📸 Screenshots
-
-🗂️ Project Folder Structure
-![Folder View](https://raw.githubusercontent.com/Siddscell/NeuroScanAI/main/assets/folder-structure.png)
-
-📦 GitHub Repo with Git LFS
-![Repo Screenshot](https://raw.githubusercontent.com/Siddscell/NeuroScanAI/main/assets/github-lfs.png)
-
-✅ Successful Push with Model.h5
-![Successful Push](https://raw.githubusercontent.com/Siddscell/NeuroScanAI/main/assets/github-commit.png)
-
-> **Note**: Make sure you upload your `.png` screenshots to the `assets/` folder in your GitHub repo and adjust the paths above accordingly.
-
----
-
-🧰 Tech Stack
-
-- Python
-- TensorFlow / Keras
-- OpenCV
-- Tkinter GUI
-- Git LFS
-- GitHub
-
----
-
-📦 Getting Started
-
-```bash
-git clone https://github.com/Siddscell/NeuroScanAI.git
+ bash 
+# Clone this repository
+git clone https://github.com/eshanvijay/NeuroScanAI.git
 cd NeuroScanAI
+
+# Navigate to backend
+cd server
+
+# Install backend dependencies
 pip install -r requirements.txt
+
+# Start backend server
 python app.py
-````
 
-> You must install Git LFS before cloning if you want the model file to load:
-> [https://git-lfs.github.com/](https://git-lfs.github.com/)
+# In a new terminal, navigate to client
+cd ../client
 
----
+# Install frontend dependencies
+npm install
 
-🧠 Model
+# Start frontend
+npm start
 
-The model is a Convolutional Neural Network trained to classify different stages of Alzheimer’s Disease. Due to its size (>100MB), it is tracked via Git Large File Storage.
+⚠ Note on model files
+💡 Important:
+The trained model file (model.h5) is too large to include directly on GitHub (over 100 MB).
 
----
+If you'd like to test the model locally, please DM me directly, and I will share the file (Google Drive link or other preferred method).
+ 
 
-👨‍💻 Author
+🎥 Demo:
+A working demo video showcasing the app in action will be added here soon! 🔥
 
-Made with ❤️ by **Siddhant Patil**
+🤝 Contributing:
+- Contributions, issues, and feature requests are welcome!
+- Feel free to open issues or pull requests to improve this project.
 
----
+💬 Contact me:
+👨‍💻 Eshan Vijay
+- GitHub: @eshanvijay
+- LinkedIn: [Profile](www.linkedin.com/in/siddhant-patil-9868aa220)
 
-📜 License
-
-This project is licensed under the MIT License.
-
+⭐ If you find this project useful, please consider giving it a star! ⭐
