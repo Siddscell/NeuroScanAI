@@ -64,8 +64,8 @@ A working demo video showcasing the app in action will be added here soon! 🔥
 - Feel free to open issues or pull requests to improve this project.
 
 💬 Contact me:
-👨‍💻 Eshan Vijay
-- GitHub: @eshanvijay
+👨‍💻 Siddhant Patil
+- GitHub: @Siddscell
 - LinkedIn: [Profile](www.linkedin.com/in/siddhant-patil-9868aa220)
 
 ⭐ If you find this project useful, please consider giving it a star! ⭐
