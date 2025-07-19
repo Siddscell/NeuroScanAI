@@ -28,7 +28,7 @@ Try the project directly here:
 
  bash 
 # Clone this repository
-git clone https://github.com/eshanvijay/NeuroScanAI.git
+git clone https://github.com/Siddscell/NeuroScanAI.git
 cd NeuroScanAI
 
 # Navigate to backend
